@@ -1,0 +1,12 @@
+   0 mkdir /home/animals
+   1 cd /home/animals/
+   2 mkdir dogs cats fish
+   3 touch dogs/pluto fish/nemo cats/garfild
+   4 touch /tmp/adam
+   5 mkdir /home/humans
+   6 cp /tmp/adam /home/humans/
+   7 touch /tmp/evA
+   8 mv /tmp/evA /opt/eve
+   9 mv /opt/eve /home/humans/
+  10 tree /home/
+  11 history > history_08_09.txt
