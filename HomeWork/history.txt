@@ -1,0 +1,8 @@
+   0 date > file.txt
+   1 df -h / >> file.txt 
+   2 history | tail -5 >> file.txt 
+   3 cat /proc/cpuinfo | grep vendor >> file.txt 
+   4 nano file.txt 
+   5 ps -ef | wc -l >> file.txt 
+   6 export_file file.txt 
+   7 history > history.txt
