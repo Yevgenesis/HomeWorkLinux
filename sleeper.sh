@@ -4,6 +4,7 @@
 	for run in {1..10}
 	do
 	date +"%T"
+ 	ps -ef | wc -l
 	#sleep 10
 	done
 
