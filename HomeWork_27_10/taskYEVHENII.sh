@@ -9,4 +9,4 @@ mkdir -p $myPath/temp
         done
 
 mkdir -p $myPath/hwarchive
-tar -cvf $myPath/hwarchive/archive.tar --remove-files -C temp .
+tar -cvf $myPath/hwarchive/archive.tar --remove-files -C $myPath/temp .
